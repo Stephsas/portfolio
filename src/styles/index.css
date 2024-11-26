@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {      
+
+background-color: black;
+position: relative;
+
+}
+
+h1, h2 {
+    background: linear-gradient(to right, #B0B0B0, #707070, #D3D3D3); /* Dégradé gris */
+    background-clip: text; /* Propriété standard */
+    -webkit-background-clip: text; /* Préfixe pour Safari et Chrome */
+    color: transparent;
+  }
+  
+
+section#hero {
+    margin-top: 63px; 
+  }
+
+/* cursor */
+
+* {
+    cursor: url('/iconmonstr-cursor-5-240.png'), auto;
+  }
+  
+  
+  
+  
