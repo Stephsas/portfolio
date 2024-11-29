@@ -8,9 +8,9 @@ const HeroSection = () => {
     >
       <div>
         <img
-          src="/profile-picture.jpg"
+          src="/profile-picture.jpg?v=1"
           alt="My Profile Picture"
-          className="w-45 h-40 rounded-full mx-auto mb-4"
+          className="w-[180px] h-40 rounded-full mx-auto mb-4"
         />
         <h1 className="text-3xl font-bold mb-2">Hi, I'm Stephanie</h1>
         <p className="text-xl">Developpeuse Fullstack</p>
