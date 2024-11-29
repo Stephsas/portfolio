@@ -8,7 +8,7 @@ const HeroSection = () => {
     >
       <div>
         <img
-          src="/20240507_131804 - Copie.jpg" // Chemin corrigé
+          src="/profile-picture.jpg"
           alt="My Profile Picture"
           className="w-45 h-40 rounded-full mx-auto mb-4"
         />
