@@ -20,6 +20,12 @@ const SkillsSection = () => {
           </span>
         </div>
         <div className="relative group">
+  <SiTypescript size={50} />
+  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white bg-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+    Typescript
+  </span>
+</div>
+        <div className="relative group">
           <FaNodeJs size={50} />
           <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white bg-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
             Node.js
@@ -95,6 +101,12 @@ const SkillsSection = () => {
   <SiSequelize size={50} />
   <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white bg-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
     Sequelize
+  </span>
+</div>
+<div className="relative group">
+  <SiNextdotjs size={50} />
+  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white bg-black px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+    NextJs
   </span>
 </div>
 
